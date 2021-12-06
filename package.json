@@ -2,7 +2,7 @@
   "name": "graphiql-browser-bundle",
   "private": true,
   "scripts": {
-    "build": "esbuild --bundle --platform=browser index.ts --outdir=dist"
+    "build": "esbuild --bundle --platform=browser --outdir=dist index.ts"
   },
   "dependencies": {
     "@types/node": "^16.11.11",
